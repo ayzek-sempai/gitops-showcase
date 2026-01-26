@@ -1,0 +1,14 @@
+{
+  "name": "ci-cd-vercel-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "build": "echo 'No build step required'"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "jest": "^29.7.0"
+  }
+}

@@ -18,7 +18,7 @@ test("health endpoint returns ok", () => {
   expect(res.json).toHaveBeenCalledWith(
     expect.objectContaining({
       status: "ok",
-      service: "ci-cd-vercel-demo-v4"
+      service: "ci-cd-vercel-demo-v5"
     })
   );
 });
